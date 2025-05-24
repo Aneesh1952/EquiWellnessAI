@@ -1,0 +1,10 @@
+[
+    {
+        "participant_id": "PT-001",
+        "timestamp": "2025-02-20T14:35:22.123456",
+        "sentiment": "positive",
+        "therapy_progress": 0.65,
+        "trauma_history": false,
+        "text_input": "Feeling optimistic about progress"
+    }
+]

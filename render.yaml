@@ -1,0 +1,11 @@
+services:
+  - type: web
+    buildCommand: pip install -r requirements.txt
+    startCommand: PORT=5001 python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.13
+      - key: PORT
+        value: 5001
+      - key: HF_API_KEY
+        value: "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"
